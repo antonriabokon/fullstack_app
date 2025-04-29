@@ -1,0 +1,65 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the form */
+  .create-user {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  .create-user h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .create-user form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-user label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  .create-user input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Save Button Styling */
+  .create-user button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .create-user button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
